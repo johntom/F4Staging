@@ -1,0 +1,59 @@
+{
+  "name": "F4Staging",
+  "version": "2.0.4",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johntom/F4Staging.git"
+  },
+  "author": "John Tomaselli <jrt@gtz.com> (http://www.gtz.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johntom/F4Staging/issues"
+  },
+  "homepage": "https://github.com/johntom/F4Staging/readme",
+  "dependencies": {
+    "@fastify/autoload": "^5.7.1",
+    "@fastify/cookie": "^6.0.0",
+    "@fastify/cors": "^8.3.0",
+    "@fastify/jwt": "^7.2.1",
+    "@fastify/mongodb": "^7.0.0",
+    "@fastify/multipart": "^7.7.3",
+    "@fastify/session": "^10.4.0",
+    "@fastify/static": "^6.10.2",
+    "@fastify/swagger": "^8.9.0",
+    "@fastify/swagger-ui": "^1.9.3",
+    "bcryptjs": "^2.4.3",
+    "busboy": "^1.6.0",
+    "checkit": "^0.7.0",
+    "clientjs": "^0.2.1",
+    "dayjs": "^1.10.5",
+    "dotenv": "^8.0.0",
+    "fastify": "^4.21.0",
+    "fastify-cli": "^5.8.0",
+    "fastify-favicon": "^4.3.0",
+    "fastify-plugin": "^3.0.1",
+    "fastify-socket.io": "^5.0.0",
+    "fs-extra": "^10.0.0",
+    "global": "^4.4.0",
+    "lodash": "^4.17.21",
+    "make-promises-safe": "^5.0.0",
+    "moment": "^2.29.4",
+    "node-expat": "^2.4.0",
+    "node-gyp": "^9.4.0",
+    "nodemon": "^3.0.1",
+    "npm-run-all": "^4.1.5",
+    "pg": "^8.7.1",
+    "pino": "^7.6.5",
+    "save-dev": "^0.0.1-security",
+    "socket.io": "^4.7.5",
+    "yargs-parser": "^13.1.1"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
